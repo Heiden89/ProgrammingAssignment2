@@ -1,0 +1,18 @@
+ProgrammingAssignment2-master
+ProgrammingAssignment for Week3_ R_programming_Coursera
+
+Step 1: Initialisation of a matrix
+a <- matrix(c(1,2,4,6,3,1,5,2,6),c(3,3))
+
+output: a [,1] [,2] [,3] [1,] 1 6 5 [2,] 2 3 2 [3,] 4 1 6
+
+Step 2: run makeCacheMatrix
+cached <- makeCacheMatrix(a)
+
+Step 3: run cacheSolve to create or get the inverse matrix
+output: cacheSolve(cached) [,1] [,2] [,3] [1,] -0.27586207 0.5344828 0.05172414 [2,] 0.06896552 0.2413793 -0.13793103 [3,] 0.17241379 -0.3965517 0.15517241
+
+Step 4: rerun to verify the cache memory
+cacheSolve(cached) [1] "we already have the data" function (a, b, ...) UseMethod("solve") <bytecode: 0x000000000f700338> <environment: namespace:base>
+
+DLE
